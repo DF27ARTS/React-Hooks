@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  background: lightblue;
+  padding: 20px;
+}
+
+.child {
+  height: 160px;
+  width: 160px;
+  background: red;
+}
